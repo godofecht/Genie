@@ -146,4 +146,3 @@ return [
 
 ];
 
-DB_CONNECTION=pgsql
