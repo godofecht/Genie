@@ -67,7 +67,7 @@ return [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '8000'),
+            'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'genie'),
             'username' => env('DB_USERNAME', 'genie_user'),
             'password' => env('DB_PASSWORD', 'Genie_23_AI'),
