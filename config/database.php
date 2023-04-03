@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Str;
 
-DB_DATABASE=genie;
-
 return [
 
     /*
@@ -147,3 +145,6 @@ return [
     ],
 
 ];
+
+DB_DATABASE=genie
+
