@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Str;
 
+DB_DATABASE=genie;
+
 return [
 
     /*
@@ -15,10 +17,7 @@ return [
     |
     */
 
-    'default' => [
-		env('DB_CONNECTION', 'pgsql'), 
-  		env('DB_DATABASE', 'genie')
-	],
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
